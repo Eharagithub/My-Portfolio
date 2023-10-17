@@ -604,6 +604,10 @@ header .follow a:hover{
     header.active{
         left: 0%;
     }
+    .contact .row form{
+        margin: 3rem 0;
+    }
+    
 }
 @media(max-width:991px){
     html{
@@ -614,5 +618,8 @@ header .follow a:hover{
     }
     .education .box-container .box{
         padding-right: 0;
+    }
+    .contact .row form{
+        margin: 3rem 0;
     }
 }
