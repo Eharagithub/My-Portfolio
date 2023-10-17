@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upani Singhapura</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet"  href="styles.css">
+
+</head>
+<body>
+
+    
+<!--header tabs-->
+    <div id="menu-bars" class="fas fa-bars"></div>
+
+    <header>
+        <a href="#" class="logo"><span>Upani </span>Singhapura</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="education.html">Education</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="follow">
+            <a href="https://www.facebook.com/profile.php?id=100074268270779&mibextid=ZbWKwL" class="fab fa-facebook-f"></a>
+            <a href="https://instagram.com/__.ehara.__?utm_source=qr&igshid=MThlNWY1MzQwNA==" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/upani-ehara-5a8336256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fab fa-linkedin"></a>
+        </div>
+    </header>
+<!--Services Section-->
+<section class="services" id="services">
+    <h1 class="heading"> <span> My </span> Services </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <h3>Web Design</h3>
+            <p>Welcome to my web design portfolio! I specialize in creating visually stunning, user-friendly, and responsive websites tailored to your unique needs. With a passion for design and a keen eye for detail, I offer a range of services to help you establish a strong online presence and captivate your audience.</p>
+            <a href="#read1" class="btn-area" id="readMoreButton">Read More</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-paint-brush"></i>
+            <h3>Graphic Design</h3>
+            <p>Welcome to my graphic design portfolio! I specialize in creating visually compelling and impactful designs that help brands stand out in a crowded marketplace. With a passion for creativity and a keen eye for detail, I offer a range of graphic design services to meet your specific needs.</p>
+            <a href="" class="btn-area">Read More</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-database"></i>
+            <h3>Database Design</h3>
+            <p>Welcome to my database design portfolio! I specialize in creating efficient and robust database solutions that empower businesses to manage their data effectively. With a passion for organizing information and ensuring data integrity, I offer a range of database design services to meet your specific needs.</p>
+            <a href="" class="btn-area">Read More</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-chart-line"></i>
+            <h3>Degital Marketing</h3>
+            <p>Welcome to my digital marketing portfolio! I specialize in crafting data-driven, results-oriented digital marketing strategies that help businesses thrive in the online world. With a passion for digital trends and a deep understanding of online consumer behavior, I offer a range of digital marketing services to drive your online success.</p>
+            <a href="" class="btn-area">Read More</a>
+        </div>
+    </div>
+</section>
+
+<script>
+// Get a reference to the "Read More" button and the home section
+const readMoreButton = document.getElementById("readMoreButton");
+const homeSection = document.getElementById("home");
+
+// Add a click event listener to the button
+readMoreButton.addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent the default link behavior
+
+    // Toggle the visibility of the home section
+    if (homeSection.style.display === "none" || homeSection.style.display === "") {
+        homeSection.style.display = "block"; // Display the section
+    } else {
+        homeSection.style.display = "none"; // Hide the section
+    }
+});
+
+
+</script>
+<script src="script.js"></script>
+</body>
+</html>
